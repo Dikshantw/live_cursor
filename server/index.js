@@ -6,7 +6,7 @@ const url = require('url')
 const server = http.createServer();
 const wsServer = new WebSocketServer({server })
 
-const port = 8000;
+const port = 8080;
 
 const connections = { };
 const users = { };
